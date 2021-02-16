@@ -5,7 +5,7 @@
   background-color: #555;
   overflow: auto;
   border-radius: 20px;
-
+  border: 3px solid black;
 }
 
 /* Navigation links */
@@ -15,14 +15,14 @@
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 18%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 
 }
 
 /* Add a background color on mouse-over */
 .navbar a:hover {
-  background-color: #000;
+  background-color: #c299ff;
 }
 
 /* Style the current/active link */
@@ -38,6 +38,31 @@
     border: 3px solid black;
 
 }
+.leftcolumn {
+ margin: auto;
+  width: 75%;
+
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  background-color: gray;
+ opacity:0.8;
+  padding: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
 
 .grid-container {
     display: grid;
@@ -51,12 +76,12 @@
     width: 95%;
     height: 95%;
     color: white;
-
-
     opacity: 0.8;
     margin: auto;
     border: 10px solid gray;
 }
+
+
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
@@ -66,4 +91,10 @@
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
+  .leftcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+
 }
