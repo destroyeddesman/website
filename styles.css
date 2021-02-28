@@ -81,7 +81,40 @@
     border: 10px solid gray;
 }
 
+.portfolio{
 
+    text-align: center;
+
+
+    padding:10px;
+}
+.port1{
+    background-color: pink;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 7%;
+    border-radius: 10px;
+
+}
+.port2{
+    background-color: pink;
+    border: 4px solid black;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    width: 7%;
+}
+.port3{
+    background-color: pink;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+    width: 7%;
+
+}
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
