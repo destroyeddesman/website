@@ -50,6 +50,31 @@
   padding: 20px;
 }
 
+.typing {
+    position: relative;
+    text-align: center;
+}
+
+.typing::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+
+    height: 90%;
+    border-right: 2px solid red;
+    animation: blink 0.7s infinite ease;
+
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
 .row:after {
   content: "";
   display: table;
@@ -75,8 +100,8 @@
     background-color:  black;
     width: 95%;
     height: 95%;
-    color: white;
-    opacity: 0.8;
+    color: pink;
+    opacity: 0.9;
     margin: auto;
     border: 10px solid gray;
 }
@@ -114,6 +139,18 @@
 
     width: 7%;
 
+}
+.homepagebutlink{
+    text-decoration: none;
+    color: black;
+
+}
+
+.homepagebut a:hover{
+    background-color: gray;
+}
+.homepagebut a:active{
+    background-color: black;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
