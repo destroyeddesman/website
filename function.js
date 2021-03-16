@@ -29,7 +29,7 @@ const texts = [
 
 ];
 
-let count = 0;
+let count = Math.floor(Math.random() *12);
 let index = 0;
 let currentText = "";
 let letter = "";

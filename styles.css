@@ -96,6 +96,14 @@
     margin-top: 15%;
     margin-right: 3%;
 }
+.gridabout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    margin-left: 3%;
+
+
+}
 .info {
     background-color:  black;
     width: 95%;
@@ -110,35 +118,46 @@
 
     text-align: center;
 
-
+    margin-top: 50;
     padding:10px;
+
 }
 .port1{
-    background-color: pink;
+
     border: 4px solid black;
     border-radius: 10px;
-    padding: 10px;
-    width: 7%;
+    padding: 15px;
+    width: 10%;
     border-radius: 10px;
+    margin-right: 10%;
 
+}
+.port1:hover{
+    background-color: green;
 }
 .port2{
-    background-color: pink;
+
     border: 4px solid black;
     border-radius: 10px;
 
-    padding: 10px;
-
-    width: 7%;
+    padding: 15px;
+    margin-right: 10%;
+    width: 10%;
+}
+.port2:hover{
+    background-color: green;
 }
 .port3{
-    background-color: pink;
+
     border: 4px solid black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    color: black;
+    width: 10%;
 
-    width: 7%;
-
+}
+.port3:hover{
+    background-color: green;
 }
 .homepagebutlink{
     text-decoration: none;
@@ -146,13 +165,31 @@
 
 }
 
+
 .homepagebut a:hover{
     background-color: gray;
 }
 .homepagebut a:active{
     background-color: black;
 }
+.aboutmepagething{
+    background-color:  black;
+    width: 95%;
+    height: 95%;
+    color: pink;
 
+    margin: auto;
+    margin-top: 4%;
+    border: 4px solid white;
+
+}
+
+.aboutpagecategories{
+    margin-left: 3%;
+}
+.aboutpagesub{
+    margin-left: 6%;
+}
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 500px) {
   .navbar a {
