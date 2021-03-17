@@ -55,3 +55,22 @@ let letter = "";
     setTimeout(type,90);
 
 })();
+
+//index page background opacity
+let major = document.getElementById('majorback');
+let major2 = document.getElementById('navbackindex');
+document.getElementById('backgroundindex').onclick=function(){
+    major.classList.toggle('disappear');
+    major2.classList.toggle('disappear');
+};
+
+//about page backgroundindex
+
+let major3 = document.getElementById('aboutport');
+let major4 = document.getElementById('aboutinfo123');
+document.getElementById('abouthehe').onclick=function(){
+    major3.classList.toggle('disappear');
+
+    navbarabout.classList.toggle('disappear');
+    major4.classList.toggle('disappear');
+}

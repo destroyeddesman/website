@@ -7,14 +7,14 @@
 font-family: Arial, Helvetica, sans-serif;
 width:100%;
 height:66.67vh;
-background:url('page4.jpg');
+background:url('mind.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
 background-size:cover;
 overflow:hidden;">
 
-<div class="navbar">
+<div class="navbar" id ="navbarabout">
   <a class="active" href="index.html">Home</a>
   <a href="about.html">About</a>
   <a href="research.html">Research </a>
@@ -24,14 +24,18 @@ overflow:hidden;">
 </div>
 
 
-<div class = "portfolio">
+<button id = "abouthehe" class = "indexfractalbut" onclick="navbarabout.classList.toggle('disappear');
+aboutport.classList.toggle('disappear');
+aboutinfo123.classList.toggle('disappear');" style = "margin-top: 3%; margin-left: 3%;">Click for Background</button>
+
+<div class = "portfolio" id = "aboutport">
 
     <input type=button onClick="location.href='https://github.com/yashvb'" value='GitHub' class = "port1">
     <input type=button onClick="location.href='https://www.linkedin.com/in/yash-bhedaru-220b161b5'" value='LinkedIn' class = "port2">
     <input type=button onClick="location.href='https://www.demical.org'" value='Website' class = "port3">
 </div>
 
-<div class = "aboutmepagething">
+<div class = "aboutmepagething" id = "aboutinfo123">
 
 
     <p style = "word-spacing: 3px">
@@ -107,9 +111,7 @@ overflow:hidden;">
                 - phpmyAdmin
                 <br>
                 <br>
-                -   Linux
-                <br>
-                <br>
+
                 - Firebase
 
             </p>
@@ -159,4 +161,5 @@ This whole website was built from scratch using Html, CSS, JavaScript, Firebase,
 
 
 </body>
+<script src ="function.js"></script>
 </html>

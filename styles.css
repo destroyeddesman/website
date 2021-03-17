@@ -35,8 +35,13 @@
 }
 
 .picture{
-    border: 3px solid black;
+    border: 10px solid black;
+    border-radius: 20px;
 
+
+}
+.picturemargi{
+    margin-bottom: -1%;
 }
 .leftcolumn {
  margin: auto;
@@ -93,7 +98,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 8%;
-    margin-top: 15%;
+    margin-top: 7%;
     margin-right: 3%;
 }
 .gridabout{
@@ -104,12 +109,41 @@
 
 
 }
+
+.indexfractalbut{
+    border: 4px solid black;
+    background-color: gray;
+
+
+    max-width: 30%;
+    font-size: 100%;
+    border-radius: 10px;
+}
+#majorback.disappear{
+    opacity: 0;
+}
+#navbackindex.disappear{
+    opacity: 0;
+}
+
+#aboutport.disappear{
+    opacity: 0;
+}
+#aboutinfo123.disappear{
+    opacity: 0;
+}
+
+#navbarabout.disappear{
+    opacity: 0;
+}
+
+
 .info {
     background-color:  black;
     width: 95%;
     height: 95%;
-    color: pink;
-    opacity: 0.9;
+    color: cyan;
+    opacity: 0.8;
     margin: auto;
     border: 10px solid gray;
 }
@@ -118,7 +152,7 @@
 
     text-align: center;
 
-    margin-top: 50;
+    margin-top: 0%;
     padding:10px;
 
 }
@@ -176,7 +210,7 @@
     background-color:  black;
     width: 95%;
     height: 95%;
-    color: pink;
+    color: purple;
 
     margin: auto;
     margin-top: 4%;
